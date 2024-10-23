@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/shortcutLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_shortcutlayout"
+    app:behavior_peekHeight="40dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:id="@+id/shortcutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Shortcut bar"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:includeFontPadding="false"/>
+
+    <LinearLayout
+        android:id="@+id/noteColorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/bg_note_color1"/>
+
+            <ImageView
+                android:id="@+id/iconColor1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_check"
+                app:tint="@color/colorWhite" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/bg_note_color2"/>
+
+            <ImageView
+                android:id="@+id/iconColor2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/bg_note_color3"/>
+
+            <ImageView
+                android:id="@+id/iconColor3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/bg_note_color4"/>
+
+            <ImageView
+                android:id="@+id/iconColor4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/bg_note_color5"/>
+
+            <ImageView
+                android:id="@+id/iconColor5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:padding="10dp"
+                app:tint="@color/colorWhite" />
+
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="pick one color"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/shortCutTagRecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toStartOf="@+id/addTagImageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textKnowledgeBase"
+        android:minHeight="50dp"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:id="@+id/layoutAddImage"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_image"
+            app:tint="@color/colorIcon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:text="Add New Image"
+            android:textSize="15sp"
+            android:textColor="@color/colorIcon"
+            android:includeFontPadding="false"
+            android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutDelete"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_delete"
+            app:tint="@color/colorIcon" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:text="Delete Note"
+            android:textSize="15sp"
+            android:textColor="@color/colorIcon"
+            android:includeFontPadding="false"
+            android:gravity="center_vertical"/>
+
+
+    </LinearLayout>
+</LinearLayout>

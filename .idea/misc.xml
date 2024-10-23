@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/Notebook/app/src/main/res/drawable/bg_add_note_btn.xml" value="0.2115" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/drawable/bg_note_item.xml" value="0.2915" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/drawable/bg_search.xml" value="0.22" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/drawable/bg_subtitle_indicator.xml" value="0.367" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/drawable/ic_save.xml" value="0.347" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2352744310575636" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout-w936dp/activity_login.xml" value="0.274609375" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/activity_create_new_note.xml" value="0.36614583333333334" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/activity_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/activity_note_view.xml" value="0.3515625" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/app_bar_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/content_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/item_note.xml" value="0.36614583333333334" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/layout/note_view.xml" value="0.33" />
+        <entry key="..\:/Project/Notebook/app/src/main/res/menu/activity_main_drawer.xml" value="0.36614583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

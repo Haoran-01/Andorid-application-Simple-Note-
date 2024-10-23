@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/allNotes">
+
+    <fragment
+        android:id="@+id/allNotes"
+        android:name="com.example.notebook.MainFragment"
+        android:label="AllNotes"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/knowledgeBase"
+        android:name="com.example.notebook.KnowledgeBaseFragment"
+        android:label="KnowledgeBase"
+        tools:layout="@layout/fragment_knowledge_base" />
+
+    <fragment
+        android:id="@+id/calendarView"
+        android:name="com.example.notebook.CalendarViewFragment"
+        android:label="fragment_calendar_view"
+        tools:layout="@layout/fragment_calendar_view" />
+
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.notebook.UserProfileFragment"
+        android:label="fragment_user_profile"
+        tools:layout="@layout/fragment_user_profile" />
+
+</navigation>
